@@ -1,4 +1,5 @@
 import { GlobalStyle } from "./globalStyles";
+import { lazy, Suspense } from "react";
 import React from "react";
 import logo from "./logo.svg";
 
@@ -8,9 +9,10 @@ import logo from "./logo.svg";
  * Tailwind file is imported in App.css
  */
 
-export default function App() {
+function App() {
   return (
-    
+   <>
+   </>
 
       
 
